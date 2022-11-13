@@ -1,9 +1,11 @@
-﻿/*code from  */
+﻿/*code from https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/?ref=rp&tab=article */
+
 // JavaScript code
-function search_browse() {
+function search_college() {
     let input = document.getElementById('searchbar').value
     input = input.toLowerCase();
-    let x = document.getElementsByClassName('collegelist');
+    let x = document.getElementsByClassName('collegeResources');
+    //let x = document.getElementsByClassName('collegeList');
 
     for (i = 0; i < x.length; i++) {
         if (!x[i].innerHTML.toLowerCase().includes(input)) {

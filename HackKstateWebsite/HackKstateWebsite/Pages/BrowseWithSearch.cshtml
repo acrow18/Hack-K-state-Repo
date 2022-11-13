@@ -1,0 +1,42 @@
+﻿@page
+@model BrowseWithSearchModel
+@{
+    ViewData["Title"] = "Browser With Search";
+}
+
+<!-- code from https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/?ref=rp&tab=article -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Creating Search Bar using HTML
+            CSS and Javascript
+        </title>
+
+        <!-- linking the stylesheet(CSS) -->
+        <link rel="stylesheet" type="text/css" href="/css/browse.css">
+    </head>
+
+    <body>
+
+        <!-- input tag -->
+        <input id="searchbar" onkeyup="search_college()" type="text"
+               name="search" placeholder="Search collegeResources..">
+
+        <!-- ordered list -->
+        <ul class='collegeList'>
+            <li class="collegeResources">Dog</li>
+            <li class="collegeResources">Elephant</li>
+            <li class="collegeResources">Fish</li>
+            <li class="collegeResources">Gorilla</li>
+            <li class="collegeResources">Monkey</li>
+            <li class="collegeResources">Turtle</li>
+            <li class="collegeResources">Whale</li>
+            <li class="collegeResources">Aligator</li>
+            <li class="collegeResources">Donkey</li>
+            <li class="collegeResources">Horse</li>
+        </ul>
+        <!-- linking javascript -->
+        <script src="./js/browse.js"></script>
+    </body>
+</html>

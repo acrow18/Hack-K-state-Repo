@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace HackKstateWebsite.Pages.Shared
+namespace HackKstateWebsite.Pages
 {
-    public class BrowserWithSearchModel : PageModel
+    public class BrowseWithSearchModel : PageModel
     {
         public void OnGet()
         {
