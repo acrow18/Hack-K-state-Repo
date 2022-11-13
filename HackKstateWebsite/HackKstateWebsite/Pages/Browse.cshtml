@@ -4,101 +4,167 @@
     ViewData["Title"] = "Browse";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Browse</h1>
-    <p>TO:DO ADD SEARCH BAR</p>
-    <p>TO:DO ADD HIGH SCHOOL/COMMUNITY COLLLEGE SECTION</p>
-    <>
-        <h2>COLLEGE</h2>
-        <section>
-            <h4><strong>Academics</strong></h4>
-                <section>
-                    <h6><em>Scheduling</em></h6>
-                    <a href="https://www.k-state.edu/student-success/initiatives/navigate/students/getting-started/ ">Office of Student Success</a>
-                    <p>Location: Holton Hall</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                       <li>Log in to Navigate</li>
-                       <li>Schedule an appointment with an academic advisor</li>
-                    </ul>
-                    <a href="https://www.youtube.com/watch?v=4HlkrmV8hP4">Enrolling in classes</a>
-                    <p>Location: Online using Navigate or KSIS</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Talk to academic advisor about your schedule</li>
-                        <li>Follow video's instructions</li>
-                    </ul>
-                </section>
-                <section>
-                    <h6><em>Tutoring</em></h6>
-                    <a href="https://www.k-state.edu/aac/tutoring/ ">Academic Achievement Center</a>
-                    <p>Location: Holtz Hall</p>
-                    <p>Different classes have different drop-in tutoring places.</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Schedule an appointment or go to drop-in tutoring</li>
-                    </ul>
-                    <a href="https://kstate.qualtrics.com/jfe/form/SV_9zDyO3gVmW5PPvL">AAC Tool Suggestion</a>
-                    <p>Location: Online survey</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Fill out survey</li>
-                        <li>Use recommended tools</li>
-                    </ul>
-                </section>
-                <section>
-                <h6><em>Writing Papers</em></h6>
-                <a href="https://www.k-state.edu/english/writingcenter/students.html ">Writing Center</a>
-                <p>Location: Online, Hale Library, or the English building</p>
-                <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Schedule an appointment with a writing tutor</li>
-                    </ul>
-                    <a href="https://lib.k-state.edu/research-find/start-my-research/">Library Research Resources</a>
-                    <p>Location: Hale Library</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Use SearchIt to find resources</li>
-                        <li>Explore the library's databases and collections</li>
-                        <li>Contact a librarian for additional assistance</li>
-                    </ul>
-                </section>
-                <section>
-                    <h6><em>Accomodations</em></h6>
-                    <a href="https://www.k-state.edu/student-success/initiatives/navigate/students/getting-started/ ">Office of Student Success</a>
-                    <p>Location: Holton Hall</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Log in to Navigate</li>
-                        <li>Schedule an appointment with an academic advisor</li>
-                    </ul>
-                    <a href="https://www.youtube.com/watch?v=4HlkrmV8hP4">Enrolling in classes</a>
-                    <p>Location: Online using Navigate or KSIS</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Talk to academic advisor about your schedule</li>
-                        <li>Follow video's instructions</li>
-                    </ul>
-                </section>
-                <section>
-                    <h6><em>Scheduling</em></h6>
-                    <a href="https://www.k-state.edu/student-success/initiatives/navigate/students/getting-started/ ">Office of Student Success</a>
-                    <p>Location: Holton Hall</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Log in to Navigate</li>
-                        <li>Schedule an appointment with an academic advisor</li>
-                    </ul>
-                    <a href="https://www.youtube.com/watch?v=4HlkrmV8hP4">Enrolling in classes</a>
-                    <p>Location: Online using Navigate or KSIS</p>
-                    <p><u>Checklist</u></p>
-                    <ul>
-                        <li>Talk to academic advisor about your schedule</li>
-                        <li>Follow video's instructions</li>
-                    </ul>
-                </section>
-        </section>
+<!-- ADD: Embedded CSS-->
+<!DOCTYPE html>
+<html>
+<head>
+    <style media="all">
+        body {
+            align-items: center;
+            padding: 0 10px;
+            justify-content: center;
+            min-height: 100vh;
+            background: #9B59B6;
+        }
 
-    </div>
-    <p>TO:DO ADD NON-TRADTIONAL LEARNING SECTION</p>
-</div>
+        li{
+            list-style: none;
+        }
+
+        section{
+            color: #D3D3D3;
+        }
+
+        h1{
+            font-size: 40px;
+            font-style: oblique;
+            font-style: italic;
+        }
+
+        h2{
+            font-size: 30px;
+            font-style: oblique;
+            font-style: italic;
+        }
+
+        h4{
+            font-size: 25px;
+            font-style: oblique;
+            font-style: italic;
+        }
+
+        h6{
+            font-size: 20px;
+            font-style: oblique;
+        }
+
+        /*ask about colors*/
+        /* unvisited link */
+        a:link {
+            color: midnightblue;
+        }
+
+        /* visited link */
+        a:visited {
+            color: whitesmoke;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: floralwhite;
+        }
+
+        /* selected link */
+        a:active {
+            color: lightsteelblue;
+        }
+    </style>
+</head>
+    <body>
+        <div class="text-center">
+        <h1 class="display-4"><strong>Browse</strong></h1>
+            <p>TO:DO ADD SEARCH BAR</p>
+            <p>TO:DO ADD HIGH SCHOOL/COMMUNITY COLLLEGE SECTION</p>
+                <h2>COLLEGE</h2>
+                <section>
+                    <h4><strong>Academics</strong></h4>
+                        <section>
+                            <h6><em>Scheduling</em></h6>
+                            <a href="https://www.k-state.edu/student-success/initiatives/navigate/students/getting-started/ ">Office of Student Success</a>
+                            <p>Location: Holton Hall</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                               <li>Log in to Navigate</li>
+                               <li>Schedule an appointment with an academic advisor</li>
+                            </ul>
+                            <a href="https://www.youtube.com/watch?v=4HlkrmV8hP4">Enrolling in classes</a>
+                            <p>Location: Online using Navigate or KSIS</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Talk to academic advisor about your schedule</li>
+                                <li>Follow video's instructions</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h6><em>Tutoring</em></h6>
+                            <a href="https://www.k-state.edu/aac/tutoring/ ">Academic Achievement Center</a>
+                            <p>Location: Holtz Hall</p>
+                            <p>Different classes have different drop-in tutoring places.</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Schedule an appointment or go to drop-in tutoring</li>
+                            </ul>
+                            <a href="https://kstate.qualtrics.com/jfe/form/SV_9zDyO3gVmW5PPvL">AAC Tool Suggestion</a>
+                            <p>Location: Online survey</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Fill out survey</li>
+                                <li>Use recommended tools</li>
+                            </ul>
+                        </section>
+                        <section>
+                        <h6><em>Writing Papers</em></h6>
+                        <a href="https://www.k-state.edu/english/writingcenter/students.html ">Writing Center</a>
+                        <p>Location: Online, Hale Library, or the English building</p>
+                        <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Schedule an appointment with a writing tutor</li>
+                            </ul>
+                            <a href="https://lib.k-state.edu/research-find/start-my-research/">Library Research Resources</a>
+                            <p>Location: Hale Library</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Use SearchIt to find resources</li>
+                                <li>Explore the library's databases and collections</li>
+                                <li>Contact a librarian for additional assistance</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h6><em>Accomodations</em></h6>
+                            <a href="https://www.k-state.edu/student-success/initiatives/navigate/students/getting-started/ ">Office of Student Success</a>
+                            <p>Location: Holton Hall</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Log in to Navigate</li>
+                                <li>Schedule an appointment with an academic advisor</li>
+                            </ul>
+                            <a href="https://www.youtube.com/watch?v=4HlkrmV8hP4">Enrolling in classes</a>
+                            <p>Location: Online using Navigate or KSIS</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Talk to academic advisor about your schedule</li>
+                                <li>Follow video's instructions</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h6><em>Scheduling</em></h6>
+                            <a href="https://www.k-state.edu/student-success/initiatives/navigate/students/getting-started/ ">Office of Student Success</a>
+                            <p>Location: Holton Hall</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Log in to Navigate</li>
+                                <li>Schedule an appointment with an academic advisor</li>
+                            </ul>
+                            <a href="https://www.youtube.com/watch?v=4HlkrmV8hP4">Enrolling in classes</a>
+                            <p>Location: Online using Navigate or KSIS</p>
+                            <p><u>Checklist</u></p>
+                            <ul>
+                                <li>Talk to academic advisor about your schedule</li>
+                                <li>Follow video's instructions</li>
+                            </ul>
+                        </section>
+                </section>
+            <p>TO:DO ADD NON-TRADTIONAL LEARNING SECTION</p>
+        </div>
+    </body>
+</html>
