@@ -1,0 +1,42 @@
+﻿@page
+@model HealthAndSafetyModel
+@{
+    ViewData["Title"] = "Health And Safety";
+}
+
+
+<!-- code from https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/?ref=rp&tab=article -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
+
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="/css/browse.css">
+</head>
+<body>
+
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_college()" type="text"
+           name="search" placeholder="Search Health and Safety...">
+
+    <!-- unordered list -->
+    <ul class='collegeList'>
+        <!--Student Life-->
+        <li class="collegeResources"><h2>Health And Safety</h2><a href="https://www.k-state.edu/report/">Safety on Campus</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/police/alerts/">K-state Police Department</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/student-involvement/saferide/">Safe Ride</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/lafene/">Lafene</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/care/">Center for Advocacy, Response and Education</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/counseling/">Counseling</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/cats-cupboard/ ">Cats Cupboard</a></li>
+        <li class="collegeResources"><a href="https://recservices.k-state.edu/ ">Rec Services</a></li>
+        <li class="collegeResources"><a href="https://you.k-state.edu/">You K-state</a></li>
+    </ul>
+    <!-- linking javascript -->
+    <script src="./js/browse.js"></script>
+</body>
+</html>

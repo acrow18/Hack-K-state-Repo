@@ -1,0 +1,41 @@
+﻿@page
+@model ConnectionsModel
+@{
+    ViewData["Title"] = "Connections";
+}
+
+<!-- code from https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/?ref=rp&tab=article -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
+
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="/css/browse.css">
+</head>
+<body>
+
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_college()" type="text"
+           name="search" placeholder="Search Connections...">
+
+    <!-- unordered list -->
+    <ul class='collegeList'>
+        <!--Student Life-->
+        <li class="collegeResources"><h2>Connections</h2><a href="https://www.k-state.edu/diversity/">Diversity</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/lgbt/">LGBT</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/diversity/multicultural-center/student-orgs/">Multicultural Student Organizations</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/safezone/">Safe Zone</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/isss/">International Student and Scholar Services</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/firstgen/programs/our_programs.html">Office of First Generation Students</a></li>
+        <li class="collegeResources"><a href="https://orgcentral.k-state.edu/home_login">OrgCentral</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/student-involvement/">Center For Student Involvement</a></li>
+        <li class="collegeResources"><a href="https://www.kstateupc.com">Union Program Council</a></li>
+    </ul>
+    <!-- linking javascript -->
+    <script src="./js/browse.js"></script>
+</body>
+</html>

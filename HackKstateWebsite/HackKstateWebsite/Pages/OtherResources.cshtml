@@ -1,0 +1,35 @@
+﻿@page
+@model OtherResourcesModel
+@{
+    ViewData["Title"] = "Other Resources";
+}
+
+<!-- code from https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/?ref=rp&tab=article -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
+
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="/css/browse.css">
+</head>
+<body>
+
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_college()" type="text"
+           name="search" placeholder="Search Other Resources...">
+
+    <!-- unordered list -->
+    <ul class='collegeList'>
+        <!--Student Life-->
+        <li class="collegeResources"><h2>Non-tradtional</h2><a href="https://www.k-state.edu/report/">Non-traditonal</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/veteran/">Veteran</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/admissions/undergrad/manhattan/enroll/admitted-checklists/freshman/">High School/Community College</a></li>
+    </ul>
+    <!-- linking javascript -->
+    <script src="./js/browse.js"></script>
+</body>
+</html>
