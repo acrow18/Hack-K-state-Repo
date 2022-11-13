@@ -1,0 +1,87 @@
+﻿/*code from */
+#searchbar {
+    margin-left: 15%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+    /* When the input field gets focus,
+        change its width to 100% */
+    input[type=text]:focus {
+        width: 70%;
+    }
+
+#list {
+    font-size: 1.5em;
+    margin-left: 90px;
+}
+
+.animals {
+    display: list-item;
+}
+
+body {
+    align-items: center;
+    padding: 0 10px;
+    justify-content: center;
+    min-height: 100vh;
+    background: #9B59B6;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    color: #D3D3D3;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: oblique;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 25px;
+    font-style: oblique;
+    font-style: italic;
+}
+
+h6 {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+/*ask about colors*/
+/* unvisited link */
+a:link {
+    color: midnightblue;
+}
+
+/* visited link */
+a:visited {
+    color: whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+    color: floralwhite;
+}
+
+/* selected link */
+a:active {
+    color: lightsteelblue;
+}

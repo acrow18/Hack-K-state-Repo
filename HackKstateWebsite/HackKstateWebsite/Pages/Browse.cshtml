@@ -4,73 +4,22 @@
     ViewData["Title"] = "Browse";
 }
 
-<!-- ADD: Embedded CSS-->
 <!DOCTYPE html>
 <html>
 <head>
-    <style media="all">
-        body {
-            align-items: center;
-            padding: 0 10px;
-            justify-content: center;
-            min-height: 100vh;
-            background: #9B59B6;
-        }
-
-        li{
-            list-style: none;
-        }
-
-        section{
-            color: #D3D3D3;
-        }
-
-        h1{
-            font-size: 40px;
-            font-style: oblique;
-            font-style: italic;
-        }
-
-        h2{
-            font-size: 30px;
-            font-style: oblique;
-            font-style: italic;
-        }
-
-        h4{
-            font-size: 25px;
-            font-style: oblique;
-            font-style: italic;
-        }
-
-        h6{
-            font-size: 20px;
-            font-style: oblique;
-        }
-
-        /*ask about colors*/
-        /* unvisited link */
-        a:link {
-            color: midnightblue;
-        }
-
-        /* visited link */
-        a:visited {
-            color: whitesmoke;
-        }
-
-        /* mouse over link */
-        a:hover {
-            color: floralwhite;
-        }
-
-        /* selected link */
-        a:active {
-            color: lightsteelblue;
-        }
-    </style>
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="./css/browse.css">
 </head>
     <body>
+    <div class="topDiv">
+        <div class="searchTop">
+            <input type="text" class="searchBar"
+                   placeholder="Enter some text to search?">
+            <button type="submit" class="searchButton">
+                <i class=""></i>
+            </button>
+        </div>
+    </div>
         <div class="text-center">
         <h1 class="display-4"><strong>Browse</strong></h1>
             <p>TO:DO ADD SEARCH BAR</p>
