@@ -1,0 +1,37 @@
+﻿@page
+@model ManagingFinancesModel
+@{
+    ViewData["Title"] = "Managing Finances";
+}
+
+<!-- code from https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/?ref=rp&tab=article -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
+
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="/css/browse.css">
+</head>
+<body>
+
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_college()" type="text"
+           name="search" placeholder="Search Managing Finances...">
+
+    <!-- unordered list -->
+    <ul class='collegeList'>
+        <!--Student Life-->
+        <li class="collegeResources"><h2>Managing Finances</h2><a href="https://www.k-state.edu/careercenter/">Employment</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/studentlife/contactus.html">Paying </a></li>
+        <li class="collegeResources"><a href="https://housing.k-state.edu/">Residence</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/legal/">Student Legal Services</a></li>
+        <li class="collegeResources"><a href="https://www.k-state.edu/honor/">Honor and Integrity System</a></li>
+    </ul>
+    <!-- linking javascript -->
+    <script src="./js/browse.js"></script>
+</body>
+</html>

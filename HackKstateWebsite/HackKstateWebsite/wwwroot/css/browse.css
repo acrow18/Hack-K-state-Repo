@@ -1,9 +1,9 @@
-﻿/*code from */
+﻿/*code from https://www.geeksforgeeks.org/search-bar-using-html-css-and-javascript/?ref=rp&tab=article */
 
 #searchbar {
-    margin-left: 15%;
-    padding: 15px;
-    border-radius: 10px;
+    margin-left: 5%;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 input[type=text] {
