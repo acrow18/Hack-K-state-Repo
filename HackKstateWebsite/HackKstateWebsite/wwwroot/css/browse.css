@@ -39,6 +39,10 @@ li,ul,ol {
     list-style: none;
 }
 
+.collegeResources {
+    text-align: center;
+}
+
 section {
     color: #D3D3D3;
 }
